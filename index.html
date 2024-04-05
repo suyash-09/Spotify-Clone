@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>All Time Best Songs of Spotify </h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="covers/1.png" alt="" srcset="">
+                    <span class="songName">Avicii - Wake me Up</span>
+                    <span class="songlistplay"><span class="timestamp">04:32 <i id="0" class=" songItemPlay fa regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/2.jpg" alt="" srcset="">
+                    <span class="songName">Chainsmokers - Closer</span>
+                    <span class="songlistplay"><span class="timestamp">04:21 <i id="1" class=" songItemPlay fa regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/3.jpg" alt="" srcset="">
+                    <span class="songName"> Alan Walker - Faded</span>
+                    <span class="songlistplay"><span class="timestamp">03:32 <i id="2" class=" songItemPlay fa regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/4.jpg" alt="" srcset="">
+                    <span class="songName">Apocalypse</span>
+                    <span class="songlistplay"><span class="timestamp">04:50 <i id="3" class=" songItemPlay fa regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/5.jpg" alt="" srcset="">
+                    <span class="songName">Wating for Love</span>
+                    <span class="songlistplay"><span class="timestamp">03:50 <i id="4" class=" songItemPlay fa regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/6.jpg" alt="" srcset="">
+                    <span class="songName">Perfect</span>
+                    <span class="songlistplay"><span class="timestamp">03:48 <i id="5" class=" songItemPlay fa regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/7.jpg" alt="" srcset="">
+                    <span class="songName">Steve - Just Hold On </span>
+                    <span class="songlistplay"><span class="timestamp">03:27 <i id="6" class=" songItemPlay fa regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/8.jpg" alt="" srcset="">
+                    <span class="songName">Don't Worry Child</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="7" class=" songItemPlay fa regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/9.jpg" alt="" srcset="">
+                    <span class="songName">Until I Found You</span>
+                    <span class="songlistplay"><span class="timestamp">02:55 <i id="8" class=" songItemPlay  fa regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="" srcset="">
+                    <span class="songName">Dua Lipa - Levitating </span>
+                    <span class="songlistplay"><span class="timestamp">03:50 <i id="9" class=" songItemPlay fa regular fa-circle-play"></i></span></span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" value="0" min="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-3x fa solid fa-backward-step" id="previous"></i>
+            <i class="fa-3x fa regular fa-circle-play" id="masterPlay"></i>
+            <i class="fa-3x fa  solid fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="43px" alt="" id="gif" > <span id="masterSongName">Avicii - Wake Me Up</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/d0159a53ac.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
